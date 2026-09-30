@@ -3,8 +3,9 @@ from flask import Flask, jsonify, render_template
 app = Flask(__name__)
 
 data = {
-    "message": "Hello from Flask",
-    "project": "Git and GitHub DEVOPS Assignment"
+    "message": "Updated JSON from Rohit_new branch",
+    "project": "Git and GitHub DEVOPS Assignment",
+    "version": "2.0"
 }
 
 
